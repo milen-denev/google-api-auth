@@ -1,5 +1,5 @@
 # google-api-auth
-## Dead simple API for creating access_token to query GCP's API
+## Dead simple API for generating access_token to query GCP's API
 
 ## Production Readiness 
 
