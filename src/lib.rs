@@ -61,6 +61,8 @@ fn get_access_token(key: &ServiceAccountKey, scopes: Vec<String>) -> AuthRespons
 
 /// Authentication handler for storing json credentials and requesting new access_token then necessary.
 /// 
+/// More details: https://developers.google.com/identity/protocols/oauth2/service-account
+/// 
 /// ```rust
 /// //Example if json credentials are stored at the same directory where the program is contained.
 /// let mut dir = env::current_exe().unwrap();
