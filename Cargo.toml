@@ -1,0 +1,11 @@
+[package]
+name = "google-api-auth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12.7", features = ["json", "blocking", "rustls-tls"] }
+serde = { version = "1.0.209", features = ["derive"] }
+serde_json = "1.0.127"
+tokio = { version = "1.39.3", features = ["full"] }
+jsonwebtoken = "9.3.0"
