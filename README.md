@@ -10,8 +10,8 @@ This is already used in production in affiliated company for specific use-case. 
 ### cargo.toml
 ```TOML
 [dependencies]
-serde = { version = "1.0.209", features = ["derive"] }
-google-api-auth = "0.1.0"
+serde = { version = "1.0", features = ["derive"] }
+google-api-auth = "0.2.0"
 ```
 
 ### main.rs

@@ -1,6 +1,6 @@
 [package]
 name = "google-api-auth"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 repository = "https://github.com/milen-denev/google-api-auth"
 license = "Apache-2.0"
@@ -9,7 +9,7 @@ authors = ["Milen Denev"]
 description = "Dead simple API for generating access_token to query GCP's API."
 
 [dependencies]
-reqwest = { version = "0.12.7", features = ["json", "blocking", "rustls-tls"] }
-serde = { version = "1.0.209", features = ["derive"] }
-serde_json = "1.0.127"
+reqwest = { version = "0.12", features = ["json", "blocking", "rustls-tls"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
 jsonwebtoken = "9.3.0"
